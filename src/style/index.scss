@@ -1,0 +1,21 @@
+// Base css
+@import "base/clear.scss";
+
+// Dependencies
+@import "dependencies/bootstrap";
+
+// ------- Project ------- //
+@import "base/typography.scss";
+@import "variables";
+// Sections
+@import "sections/header.scss";
+@import "sections/footer.scss";
+
+
+#modal-trig{
+	margin-top: 100px;
+	background-color: #00aa99;
+	color: white;
+	border-radius: 0;
+	border: none;
+}

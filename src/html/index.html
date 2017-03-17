@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A modal example</title>
+	<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10"></div>
+				<h2>An example of a Bootstrap Modal</h2>
+				<!-- Button trigger modal -->
+				<a data-toggle="modal" href="#normalModal" id='modal-trig' class="btn btn-default">A magic button</a>
+
+				<div id="normalModal" class="modal fade">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				        <h4 class="modal-title">This is the title of the modal</h4>
+				      </div>
+				      <div class="modal-body">
+				        <h2>And this is the text of the modal&hellip;</h2>
+				        <p>Some interesting examples of modal implementations:<br><br>
+				        <ul>
+				        	<li><a target="_blank" href="https://codepen.io/DawsonMediaD/pen/byDqv">Bootstrap Variable-Width Modal</a></li>
+				        	<li><a target="_blank" href="https://codepen.io/bootpen/pen/jbbaRa">BootStrap Modal as Left/Right Sidebar</a></li>
+				        	<li><a target="_blank" href="https://codepen.io/danbhala/pen/EKoNrO">Bootstrap Fullscreen Menu via Modal</a></li>
+				        	<li><a target="_blank" href="https://codepen.io/macsupport/pen/OPwvwx">Bootstrap Modal with velocity.js animation</a></li>
+				        </ul>
+				        </p>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary">Save changes</button>
+				      </div>
+				    </div><!-- /.modal-content -->
+				  </div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+		</div>
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.2.0.js"
+  integrity="sha256-wPFJNIFlVY49B+CuAIrDr932XSb6Jk3J1M22M3E2ylQ="
+  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</body>
+</html>
